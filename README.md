@@ -6,6 +6,10 @@ This shows how a Self-XSS vulnerability works in Discord.
 
 Self-XSS is when someone tricks you into running a harmful script in your own browser. This script can grab your Discord session token from your browser's storage.
 
+## How I Discovered This
+
+I found that by using a simple script, I could extract my own Discord session token through the Developer Console. This shows how easily someone could be tricked into running a harmful script.
+
 ## Low Impact Vulnerability
 
 This Self-XSS vulnerability is considered low impact for a few reasons:
@@ -22,7 +26,7 @@ This Self-XSS vulnerability is considered low impact for a few reasons:
 
 1. Open Discord in your web browser.
 2. Open the Developer Console (press F12).
-3. Copy and paste the code from `self_xss.js` into the console and press Enter.
+3. Copy and paste the code from `selfxss.js` into the console and press Enter.
 4. An alert will show your Discord token.
 
 ## Warning
