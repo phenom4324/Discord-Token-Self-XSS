@@ -4,7 +4,7 @@ This shows how a Self-XSS vulnerability works in Discord.
 
 ## What is Self-XSS?
 
-Self-XSS is when someone tricks you into running a harmful script in your own browser. This script can grab your Discord session token from your browser's storage.
+Self-XSS is when someone tricks you into running a harmful script in your own browser. This script can grab your Discord session token from your browser's storage. Be careful when screen recording—if you show your token on screen, even for a moment, someone could pause the video and copy it. This means your token could be stolen without you even realizing it, just from a video you shared.
 
 ## How I Discovered This
 
